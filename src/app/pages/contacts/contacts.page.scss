@@ -1,0 +1,60 @@
+/* Adicione estilos ao seu arquivo de estilos (por exemplo, styles.scss) */
+
+ion-header {
+    ion-toolbar {
+      ion-title {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: white; /* Cor do texto do título */
+      }
+    }
+  }
+  
+  ion-content {
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+  
+      p {
+        margin-bottom: 20px;
+        font-size: 0.9em;
+      }
+  
+      ion-item {
+        ion-label {
+          font-size: 0.9em;
+        }
+      }
+  
+      ion-input,
+      ion-textarea {
+        margin-bottom: 15px;
+      }
+  
+      ion-button {
+        margin-top: 20px;
+      }
+    }
+  
+    .success-message {
+      max-width: 400px;
+      margin: 0 auto;
+      text-align: center;
+  
+      h4 {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        font-weight: bold;
+      }
+  
+      p {
+        margin-bottom: 10px;
+        font-size: 0.9em;
+      }
+  
+      em {
+        font-style: italic;
+      }
+    }
+  }
+  
